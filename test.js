@@ -1,1 +1,0 @@
-alert("the text document is upload!")
