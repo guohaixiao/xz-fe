@@ -90,9 +90,10 @@ header {
     display: flex;
     justify-content: space-around;
     margin: 0;
-
 }
-
+.top_right .top_right_nav a:hover{
+    color:#f10180;
+}
 .top_right_nav li {
     line-height: 27px;
 }
@@ -251,4 +252,47 @@ header {
     border:1px solid #f10180;
     border-radius: 30%;
     background-color: #f10180;
+}
+.login_box{
+    width:280px;
+    height:200px;
+    border:1px solid #ddd;
+    border-top:hidden;
+    padding-left:15px;
+    padding-right: 15px;
+    position: absolute;
+    top:26px;
+    left:-1px;
+    display: none;
+
+
+}
+.login_box>p{
+    width:280px;
+    height:53px;
+    line-height: 53px;
+    border-bottom: 1px solid #ddd;
+}
+.login_box>ul{
+    width:140px;
+    float: left;
+    margin-top:10px;
+}
+.place_login{
+    width:51px;
+    height:26px;
+    border:1px solid transparent;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+}
+.place_login:hover .login_box{
+    display: block;
+}
+
+.place_login:hover {
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-bottom:hidden;
+    background:#fff;
 }
