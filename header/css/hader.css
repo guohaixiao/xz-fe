@@ -5,16 +5,17 @@ body {
 *{
     margin:0;
     padding:0;
+    text-decoration: none;
+    color: #777;
 }
+
 
 ul {
     list-style: none;
 }
 
-header a {
-    text-decoration: none;
-    color: #777;
-}
+
+
 
 header {
     background: #f5f5f5;
@@ -96,7 +97,7 @@ header {
     line-height: 27px;
 }
 .select_p {
-    padding: 10px 0 10px 0;
+    margin: 20px 0 55px 0;
 }
 .select_p p{
     float: left;
@@ -108,4 +109,146 @@ header {
     width:470px;
     height:30px;
     position: relative;
+    border-bottom: 1px solid #ddd   ;
+}
+.city_ul>li{
+    width:68px;
+    height:28px;
+    border:1px solid #ddd;
+    border-bottom: hidden;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 28px;
+}
+.city_ul>li:hover{
+    border-top:2px solid #f10180;
+    border-bottom:2px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.city_ul #chengshi{
+    position: absolute;
+    top:0px;
+    left:69px;
+}
+#shengfen:hover .select_sheng{
+    display: block;
+}
+.select_sheng{
+    width:408px;
+    height:150px;
+    padding-top:10px;
+    position: absolute;
+    top:30px;
+    left:0px;
+    display: none;
+}
+
+.select_sheng>li{
+    width:68px;
+    height:28px;
+    box-sizing: border-box;
+    float: left;
+    margin:5px;
+
+}
+.select_sheng>li:hover{
+    border:1px solid #f10180;
+}
+#chengshi:hover .select_chengshi{
+    display: block;
+}
+.select_chengshi{
+    width:408px;
+    height:150px;
+    padding-top:10px;
+    position: absolute;
+    top:29px;
+    left:-70px;
+    display:none;
+}
+.select_chengshi>li{
+    width:68px;
+    height:28px;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.select_chengshi>li:hover{
+    border:1px solid #f10180;
+}
+#input_box{
+    width:1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.input_style{
+    width:350px;
+    height:34px;
+    border:1px solid #f10180;
+    position: relative;
+    z-index: 0;
+}
+.input {
+
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: absolute;
+    top:5px;
+    width:330px;
+}
+.input_style>a{
+    position: absolute;
+    left:351px;
+}
+.logo_img{
+    width:200px;
+    height:150px;
+}
+.logo_size1{
+    width:200px;
+    height:100px;
+}
+.logo_size2{
+    width:200px;
+}
+.gouwudai{
+    width:50px;
+    height:36px;
+    text-align: center;
+    line-height: 36px;
+    font-size:12px;
+    padding-left: 22px;
+    padding-right: 30px;
+    border:1px solid #f10180;
+    border-radius:5px;
+    position: relative;
+}
+.gw_img{
+    width:15px;
+    height:15px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.numb{
+    width:24px;
+    height:16px;
+    line-height: 16px;
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    top:9px;
+    left:67px;
+    border:1px solid #f10180;
+    border-radius: 30%;
+    background-color: #f10180;
 }
