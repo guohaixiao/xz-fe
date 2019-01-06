@@ -488,6 +488,7 @@ header {
     font-weight: 700;
     color:#000000;
 }
+/*下拉导航*/
 .nav_box{
     width:100%;
     border-bottom: 2px solid #f10180;
@@ -577,7 +578,7 @@ header {
 .gd2_box>a{
     display: inline-block;
     width: 60px;
-    line-height: 40px;
+    line-height: 40 px;
     position: relative;
 }
 .gd2_box:hover{
@@ -620,7 +621,6 @@ header {
     left:23px;
     width:16px;
     height:25px;
-
     background: url("../img/index.png") no-repeat 0px -10px;
 }
 .nav_checkbox_ul .nav_bg_box_1{
@@ -655,7 +655,7 @@ header {
     background: url("../img/index.png") no-repeat 0px -418px;
 }
 /*下拉导航hover*/
-.nav_checkbox_ul>li:hover{
+.nav_checkbox_ul>li>a:hover{
     background: #ffffff;
     border-left: 3px solid #f10180;
 
