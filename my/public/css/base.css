@@ -1,0 +1,67 @@
+/*轮播图导航指示符圆点*/
+body{margin:0;padding:0}
+/*头部的尺寸*/
+.my_header iframe{
+    width:100%;
+    height:14rem;
+}
+.carousel-indicators{
+    width:100%;height:10%;
+    margin-left:0%;
+    margin-bottom:0.5%;
+}
+.carousel-indicators li{
+    height:0.3rem;
+}
+.carousel-indicators .active{
+    background:#aaaaaa;
+}
+.carousel-control-prev,.carousel-control-next{
+    background:rgba(0,0,0,0.2);
+    width:3%;
+    height:20%;
+    top:40%;
+}
+/*每日必抢的样式*/
+.sk{
+    border:1px solid #aaaaaa;
+}
+.sk:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.sk-price{
+    font-size:1.5rem;
+    color:#f00;
+}
+.sk-next{
+    display:inline-block;
+    background:rgba(0,0,0,0.2);
+    width:3%;
+    margin-top:6rem;
+    border-radius: 50%;
+}
+/*热门分类的样式*/
+.select-title{
+    background:url("../../img/select_1.png") center no-repeat;
+    width:100%;
+    height: 86px;
+    margin-top: 20px;
+}
+.cat-title{
+    border:1px solid #aaaaaa;
+}
+.my_font{
+    font-size:18px;
+    color:#333;
+}
+.my_fontsmall{
+    font-size:12px;
+    color:#a1a1a1;
+}
+.my_remen_h{
+    height:60px;
+}
+#remen ul li{border: 1px solid rgba(0, 0, 0, 0.125);}
+
