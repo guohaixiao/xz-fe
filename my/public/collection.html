@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/collection.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="js/jquery-1.11.3.js"></script>
+   
+</head>
+
+<body>
+    <div id="collection">
+        <div class="coll-head">
+            <!--背景图片-->
+            <div class="coll-bg-img"></div>
+            <!--亲爱的、、、您好-->
+            <div class="hello">
+                <!--上传头像-->
+                <div class="user">
+                    <a href="#" class="touxiang">
+                        <img src="../img/coll-touxiang.jpg"/>
+                        <span class="tx_span">请上传头像</span>
+                    </a>
+
+                    <div class="ninghao">
+                        <span class="coll-bg-img2"></span>
+
+                        <span>亲爱的 唯品会会员 您好</span>
+                    </div>
+                </div>
+                <!-- 收藏导航-->
+                <div class="coll-nav">
+                    <ul>
+                        <li><a href="#" id="aa"><span>品牌收藏</span>(<i>0</i>)	</a></li>
+                        <li class="shu"></li>
+                        <li><a href="#"><span>店铺收藏</span>(<i>0</i>)</a></li>
+                        <li class="shu"></li>
+                        <li><a href="#" class="active" id="bb"><span>商品收藏</span>(<i>2</i>)</a></li>
+                        <li class="shu"></li>
+                        <li><a href="#"><span>我的足迹</span>(<i>0</i>)</a></li>
+                    </ul>
+                    <!-- 品牌收藏 和店铺收藏内容 -->
+                    <div id="sc">
+                        <div class="sc-bgimg">
+
+                        </div>
+                        <div class="sc-details">
+                            <h3>你暂时没有收藏店铺</h3>
+                            <p>先去首页逛逛吧~~</p>
+                            <div>
+                                <a href="#">去首页逛逛吧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--正在热卖  ...-->
+        <div class="g-cnt">
+            <ul class="ul-tab-hd">
+                <li><a href="#" class="active"><span>正在热卖</span>(<i>0</i>)</a></li>
+                <li class="shu"></li>
+                <li><a href="#"><span>即将开售</span>(<i>0</i>)</a></li>
+                <li class="shu"></li>
+                <li><a href="#"><span>历史推荐</span>(<i>0</i>)</a></li>
+            </ul>
+            <div class="coll-container">
+                <h2 class="coll-h2">正在售卖</h2>
+                <div class="coll-content">
+                    <div class="coll-checkbox">
+                        <input type="checkbox" id="qx">&nbsp;&nbsp;<label for="qx">全选</label>
+                        <span>
+                            <a href="#">
+                                <!--<i id="bg-gwd"></i>                 -->
+                                一键放入购物袋
+                                </a>
+                        </span>
+                        <a href="#">我的购物袋</a>                      
+                    </div>
+                    <ul class="coll-product ac" >
+                        <li>
+                            <input type="checkbox">
+                        </li>
+                        <li>
+                            <img src="../img/coll-product.jpg" class="img-size">
+                        </li>
+                        <li>
+                            <p><span>99</span>元封顶-孕婴服饰冬购季</p>
+                            <p>孕产妇春秋孕妇家居服哺乳套装月子服睡衣潮妈2件套</p>
+                            <p>尺码：<span>l</span></p>
+                        </li>
+                        <li>
+                            ￥<span>98</span>&nbsp;<del>￥329</del>
+                        </li>
+                        <li>
+                            <p class="fr"><a href="#">放入购物袋</a></p>
+                            <p><a href="#">取消收藏</a></p>
+                            
+                        </li>
+                    </ul>
+                    <ul class="coll-product">
+                        <li>
+                            <input type="checkbox">
+                        </li>
+                        <li>
+                            <img src="../img/coll-product.jpg" class="img-size">
+                        </li>
+                        <li>
+                            <p><span>99</span>元封顶-孕婴服饰冬购季</p>
+                            <p>孕产妇春秋孕妇家居服哺乳套装月子服睡衣潮妈2件套</p>
+                            <p>尺码：<span>l</span></p>
+                        </li>
+                        <li>
+                            ￥<span>98</span>&nbsp;<del>￥329</del>
+                        </li>
+                        <li>
+                            <p class="fr"><a href="#">放入购物袋</a></p>
+                            <p><a href="#">取消收藏</a></p>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="my_footer">
+        <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+    <script src="js/collection.js"></script>
+</body>
+
+</html>
